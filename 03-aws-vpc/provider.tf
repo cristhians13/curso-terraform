@@ -9,20 +9,20 @@ terraform {
     }
   }
 
-    backend "s3" {
-    bucket = "cristhians-remote-state"
-    key    = "aws-vpc/terraform.tfstate"
-    region = "sa-east-1"
+  backend "s3" {
+    bucket = var.bucket_name_remote_state
+    key    = var.key_vpc
+    region = var.region
   }
 }
 
 provider "aws" {
-  region = "sa-east-1"
+  region = var.region
 
   default_tags {
     tags = {
-      owner     = "cristhians"
-      manage-by = "terraform"
+      owner     = var.owner
+      manage-by = var.manage_by
     }
   }
 }

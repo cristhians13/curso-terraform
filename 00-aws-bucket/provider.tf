@@ -11,12 +11,12 @@ terraform {
 }
 
 provider "aws" {
-  region = "sa-east-1"
+  region = var.region
 
   default_tags {
     tags = {
-      owner     = "cristhians"
-      manage-by = "terraform"
+      owner     = var.owner
+      manage-by = var.manage_by
     }
   }
 }

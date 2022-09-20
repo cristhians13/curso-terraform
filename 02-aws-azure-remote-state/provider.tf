@@ -9,19 +9,19 @@ terraform {
     }
 
     azurerm = {
-      source = "hashicorp/azurerm"
+      source  = "hashicorp/azurerm"
       version = "3.22.0"
     }
   }
 }
 
 provider "aws" {
-  region = "sa-east-1"
+  region = var.region
 
   default_tags {
     tags = {
-      owner     = "cristhians"
-      manage-by = "terraform"
+      owner     = var.owner
+      manage-by = var.manage_by
     }
   }
 }

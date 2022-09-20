@@ -1,0 +1,9 @@
+*/terraform*
+*/.terraform*
+*/localstack*.tf
+*/*/localstack*.tf
+*/*.tfvars
+*.tfvars
+*/aws-key*
+*/plan.out
+*/azure-key*

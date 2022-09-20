@@ -1,3 +1,3 @@
 resource "aws_s3_bucket" "first_bucket" {
-  bucket = "curso-terraform-cristhians"
+  bucket = var.bucket_name
 }
