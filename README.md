@@ -9,6 +9,7 @@ https://www.udemy.com/course/terraform-do-basico-ao-avancado/
 - 04-azure-vnet
 - 05-aws-vm-com-vpc-remote-state
 - 06-azure-vm-com-vnet-remote-state
+- 07-terraform-import
 
 ---
 ### Requerimentos
@@ -30,6 +31,10 @@ location = "Brazil South"
 env_lower = "teste"
 env_upper = "TESTE"
 project   = "Curso-Terraform"
+...
+...
+
+```
 
 ---
 ### Comandos Terraform
