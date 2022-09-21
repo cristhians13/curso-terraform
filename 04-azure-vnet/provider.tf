@@ -10,10 +10,10 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = var.storage_account_resource_group_name_rs
-    storage_account_name = var.storage_account_name_rs
-    container_name       = var.storage_container_name_rs
-    key                  = var.key_vnet
+    resource_group_name  = "remote_state"
+    storage_account_name = "cristhiansremotestate"
+    container_name       = "remote-state"
+    key                  = "azure-vnet/terraform.tfstate"
   }
 }
 

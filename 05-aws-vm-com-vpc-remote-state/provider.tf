@@ -10,9 +10,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = var.bucket_name_remote_state
-    key    = var.aws_key_vm
-    region = var.region
+    bucket = "cristhians-remote-state"
+    key    = "aws-vm/terraform.tfstate"
+    region = "sa-east-1"
   }
 }
 

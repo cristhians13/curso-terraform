@@ -14,10 +14,6 @@ variable "bucket_name_remote_state" {
   description = "Variável que indica o nome do bucket S3"
 }
 
-variable "key_vpc" {
-  description = "Variável que indica o caminho do bucket para guardar o Terraform State"
-}
-
 variable "vpc_cidr_block" {
   description = "vpc_cidr_block"
 }

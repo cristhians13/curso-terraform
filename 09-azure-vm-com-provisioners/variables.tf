@@ -87,3 +87,7 @@ variable "owner" {
 variable "manage_by" {
   description = "Variável que indica quem administra o recurso"
 }
+
+variable "azure_connection_user" {
+  description = "azure_connection_user"
+}

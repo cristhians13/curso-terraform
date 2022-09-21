@@ -11,7 +11,7 @@ terraform {
 
   backend "s3" {
     bucket = "cristhians-remote-state"
-    key    = "aws-vpc/terraform.tfstate"
+    key    = "aws-vm-provisioners/terraform.tfstate"
     region = "sa-east-1"
   }
 }
@@ -24,5 +24,14 @@ provider "aws" {
       owner     = var.owner
       manage-by = var.manage_by
     }
+  }
+}
+
+data "terraform_remote_state" "vpc" {
+  backend = "s3"
+  config = {
+    bucket = var.bucket_name_remote_state
+    key    = var.key_vpc
+    region = var.region
   }
 }

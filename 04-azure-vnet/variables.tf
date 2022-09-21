@@ -16,10 +16,6 @@ variable "storage_container_name_rs" {
   description = "Indica o nome do container na Storage-Account com Remote State"
 }
 
-variable "key_vnet" {
-  description = "Variável que indica o caminho do storage account para guardar o Terraform State"
-}
-
 variable "vnet_resource_group_name" {
   description = "vnet_resource_group_name"
 }

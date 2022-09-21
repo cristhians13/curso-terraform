@@ -13,7 +13,7 @@ terraform {
     resource_group_name  = "remote_state"
     storage_account_name = "cristhiansremotestate"
     container_name       = "remote-state"
-    key                  = "azure-vm/terraform.tfstate"
+    key                  = "azure-vm-provisioners/terraform.tfstate"
   }
 }
 
