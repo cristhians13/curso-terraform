@@ -10,6 +10,10 @@ https://www.udemy.com/course/terraform-do-basico-ao-avancado/
 - 05-aws-vm-com-vpc-remote-state
 - 06-azure-vm-com-vnet-remote-state
 - 07-terraform-import
+- 08-aws-vm-com-provisioners
+- 09-azure-vm-com-provisioners
+- 10-modulo-local
+- 11-modulo-remoto
 
 ---
 ### Requerimentos
