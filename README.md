@@ -14,6 +14,11 @@ https://www.udemy.com/course/terraform-do-basico-ao-avancado/
 - 09-azure-vm-com-provisioners
 - 10-modulo-local
 - 11-modulo-remoto
+- 12-depends-on-modulo-remoto
+- 13-count-aws-vpc
+- 14-for-each-azure-resource-group
+- 15-provider-aws-vpc
+- 16-lifecycle-aws-bucket
 
 ---
 ### Requerimentos
