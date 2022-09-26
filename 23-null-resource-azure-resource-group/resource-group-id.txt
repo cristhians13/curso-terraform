@@ -1,0 +1,1 @@
+Resource Group ID: /subscriptions/060b324f-9aeb-420a-bbda-378749880740/resourceGroups/vnet 

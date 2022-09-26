@@ -19,6 +19,14 @@ https://www.udemy.com/course/terraform-do-basico-ao-avancado/
 - 14-for-each-azure-resource-group
 - 15-provider-aws-vpc
 - 16-lifecycle-aws-bucket
+- 17-conditional-expressions-aws-vpc
+- 18-for-expressions-aws-vpc
+- 19-splat-expressions-aws-vpc
+- 20-dynamic-blocks-aws-vpc
+- 21-workspace-aws-vpc
+- 22-data-source-aws-vpc
+- 23-null-resource-azure-resource-group
+- 24-time-sleep-azure-resource-group
 
 ---
 ### Requerimentos
